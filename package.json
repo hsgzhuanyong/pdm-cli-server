@@ -21,5 +21,9 @@
   },
   "bin": {
     "pdm": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hsgzhuanyong/pdm-cli-server.git"
   }
 }
