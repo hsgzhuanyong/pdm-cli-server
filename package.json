@@ -1,6 +1,6 @@
 {
   "name": "pdm-cli-tools",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "pdm命令行工具包",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
     "pdm",
     "cli"
   ],
-  "author": "maikro@126.com",
+  "author": "maikro <maikro@126.com>",
   "license": "ISC",
   "dependencies": {
     "commander": "^5.0.0",

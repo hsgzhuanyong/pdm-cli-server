@@ -5,7 +5,7 @@
   npm install -g pdm-cli-server
 ```
 
-### 使用
+### 创建h5工程
 ```shell
-  pdm create
+  pdm create-h5 项目名
 ```

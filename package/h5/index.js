@@ -12,6 +12,8 @@ function install() {
   return new Promise((resolve, reject) => {
     // 进入到对应文件夹
     shell.cd(DEFAULT_NAME);
+    // 删除git仓库
+    shell.rm('-rf', '.git');
     // 安装依赖
     shell.exec('yarn install');
     resolve();
