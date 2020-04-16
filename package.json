@@ -1,19 +1,25 @@
 {
-  "name": "pdm-cli-server",
-  "version": "1.0.0",
-  "description": "",
+  "name": "pdm-cli-tools",
+  "version": "1.1.0",
+  "description": "pdm命令行工具包",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "pdm命令行工具包",
+  "keywords": [
+    "pdm",
+    "cli"
+  ],
+  "author": "maikro@126.com",
   "license": "ISC",
-  "bin": {
-    "pdm create cli-h5": "bin/cli-h5.js"
-  },
   "dependencies": {
     "commander": "^5.0.0",
+    "inquirer": "^7.1.0",
+    "minimist": "^1.2.5",
+    "ora": "^4.0.3",
     "shelljs": "^0.8.3",
     "simple-git": "^1.132.0"
+  },
+  "bin": {
+    "pdm": "bin/index.js"
   }
 }
