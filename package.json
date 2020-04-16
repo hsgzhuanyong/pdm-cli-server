@@ -1,0 +1,19 @@
+{
+  "name": "pdm-cli-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "pdm命令行工具包",
+  "license": "ISC",
+  "bin": {
+    "pdm create cli-h5": "bin/cli-h5.js"
+  },
+  "dependencies": {
+    "commander": "^5.0.0",
+    "shelljs": "^0.8.3",
+    "simple-git": "^1.132.0"
+  }
+}
